@@ -40,6 +40,7 @@ public class WordAdapter extends ArrayAdapter<Work> {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
+        //null means there is no views we can reuse
         if(listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);

@@ -2,9 +2,6 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -14,25 +11,22 @@ public class NumbersActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_numbers);
+        setContentView(R.layout.word_list);
 
         // Create a list of words
         ArrayList<Work> words = new ArrayList<Work>();
-        words.add(new Work("1","one"));
-        words.add(new Work("2","one"));
-        words.add(new Work("3","one"));
-        words.add(new Work("4","one"));
-        words.add(new Work("5","one"));
-        words.add(new Work("6","one"));
-        words.add(new Work("7","one"));
-        words.add(new Work("8","one"));
-        words.add(new Work("9","one"));
-        words.add(new Work("1","one"));
-        words.add(new Work("1","one"));
-        words.add(new Work("1","one"));
-        words.add(new Work("1","one"));
-        words.add(new Work("1","one"));
-        words.add(new Work("1","one"));
+        words.add(new Work("one","lutti"));
+        words.add(new Work("two","lutti"));
+        words.add(new Work("three","lutti"));
+        words.add(new Work("four","lutti"));
+        words.add(new Work("five","lutti"));
+        words.add(new Work("six","lutti"));
+        words.add(new Work("seven","lutti"));
+        words.add(new Work("eight","lutti"));
+        words.add(new Work("night","lutti"));
+        words.add(new Work("ten","na’aacha"));
+
+
 
 
 
@@ -49,7 +43,7 @@ public class NumbersActivity extends AppCompatActivity {
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // activity_numbers.xml layout file.
+        // word_list.xml file.
         ListView listView = (ListView) findViewById(R.id.list);
 
         //GridView gView = (GridView) findViewById(R.id.gridview);
