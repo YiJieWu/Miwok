@@ -15,16 +15,16 @@ public class NumbersActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Work> words = new ArrayList<Work>();
-        words.add(new Work("one","lutti"));
-        words.add(new Work("two","lutti"));
-        words.add(new Work("three","lutti"));
-        words.add(new Work("four","lutti"));
-        words.add(new Work("five","lutti"));
-        words.add(new Work("six","lutti"));
-        words.add(new Work("seven","lutti"));
-        words.add(new Work("eight","lutti"));
-        words.add(new Work("night","lutti"));
-        words.add(new Work("ten","na’aacha"));
+        words.add(new Work("one","lutti",R.drawable.number_one));
+        words.add(new Work("two","lutti",R.drawable.number_two));
+        words.add(new Work("three","lutti",R.drawable.number_three));
+        words.add(new Work("four","lutti",R.drawable.number_four));
+        words.add(new Work("five","lutti",R.drawable.number_five));
+        words.add(new Work("six","lutti",R.drawable.number_six));
+        words.add(new Work("seven","lutti",R.drawable.number_seven));
+        words.add(new Work("eight","lutti",R.drawable.number_eight));
+        words.add(new Work("night","lutti",R.drawable.number_nine));
+        words.add(new Work("ten","na’aacha",R.drawable.number_ten));
 
 
 

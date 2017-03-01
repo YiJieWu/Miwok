@@ -15,16 +15,16 @@ public class FamilyMembersActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Work> words = new ArrayList<Work>();
-        words.add(new Work("father","weṭeṭṭi"));
-        words.add(new Work("mother","chokokki"));
-        words.add(new Work("son","ṭakaakki"));
-        words.add(new Work("daughter","ṭopoppi"));
-        words.add(new Work("older brother","kululli"));
-        words.add(new Work("younger brother","kelelli"));
-        words.add(new Work("older sister","ṭopiisә"));
-        words.add(new Work("younger sister","chiwiiṭә"));
-        words.add(new Work("grandmother","ṭopiisә"));
-        words.add(new Work("grandfather","chiwiiṭә"));
+        words.add(new Work("father","weṭeṭṭi",R.drawable.family_father));
+        words.add(new Work("mother","chokokki",R.drawable.family_mother));
+        words.add(new Work("son","ṭakaakki",R.drawable.family_son));
+        words.add(new Work("daughter","ṭopoppi",R.drawable.family_daughter));
+        words.add(new Work("older brother","kululli",R.drawable.family_older_brother));
+        words.add(new Work("younger brother","kelelli",R.drawable.family_younger_brother));
+        words.add(new Work("older sister","ṭopiisә",R.drawable.family_older_sister));
+        words.add(new Work("younger sister","chiwiiṭә",R.drawable.family_younger_sister));
+        words.add(new Work("grandmother","ṭopiisә",R.drawable.family_grandmother));
+        words.add(new Work("grandfather","chiwiiṭә",R.drawable.family_grandfather));
 
 
 
