@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -56,6 +57,18 @@ public class WordAdapter extends ArrayAdapter<Work> {
 
         // Find the TextView in the list_item.xml layout with the ID eng
         TextView englishTextView = (TextView) listItemView.findViewById(R.id.english);
+
+        //Find the image view of the picture
+        ImageView picView=(ImageView)listItemView.findViewById(R.id.list_pic);
+        if(picView!=null){
+            picView.setImageResource(current_word.getPic());
+
+            //if the previous reuse view is set as Gone, we need to reset it to visible
+            picView.setVisibility(View.VISIBLE);
+        }else {
+            //if set gone, does not take any space in the layout
+            picView.setVisibility(View.GONE);
+        }
 
 
         // Get the miwok word from the word object &
